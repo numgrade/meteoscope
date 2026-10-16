@@ -1,0 +1,12 @@
+site_name: meteoscope
+site_description: Exploration of meteorological data
+theme:
+  name: material
+  language: en
+nav:
+  - Accueil: index.md
+  - Guide d'utilisation: guide.md
+  - Référence API: api.md
+plugins:
+  - search
+  - mkdocstrings
